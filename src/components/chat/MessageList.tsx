@@ -17,8 +17,8 @@ export function MessageList({ messages, isLoading }: MessageListProps) {
         <div className="flex items-center justify-center w-14 h-14 rounded-2xl bg-blue-50 mb-4 shadow-sm">
           <Bot className="h-7 w-7 text-blue-600" />
         </div>
-        <p className="text-neutral-900 font-semibold text-lg mb-2">Start a conversation to generate React components</p>
-        <p className="text-neutral-500 text-sm max-w-sm">I can help you create buttons, forms, cards, and more</p>
+        <p className="text-neutral-900 font-semibold text-lg mb-2">What would you like to build?</p>
+        <p className="text-neutral-500 text-sm max-w-sm">Describe a UI component and I'll generate it for you</p>
       </div>
     );
   }

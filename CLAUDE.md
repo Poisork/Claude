@@ -50,6 +50,10 @@ Uses `NODE_OPTIONS='--require ./node-compat.cjs'` for Node 25+ compatibility (re
 - AI system prompt is in `/src/lib/prompts/generation.tsx`
 - Max 40 AI tool-use steps (4 in mock mode), 10,000 max tokens per response
 
+## Style
+
+- Use comments sparingly — only comment complex, non-obvious code.
+
 ## Environment Variables
 
 - `ANTHROPIC_API_KEY` — enables real Claude API (optional, falls back to mock)
